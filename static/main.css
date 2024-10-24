@@ -91,7 +91,13 @@
   }
 }
 
-.navbar-toggler{
-  z-index: 1000000000000000000000 !important;
-  position: absolute !important;
+.bg-ligth{
+  background-color: #fff !important;
+}
+
+.carousel-inner {
+  background-image: url('../static/img/karting-collection.png'); /* Шлях до вашого зображення */
+  background-size: cover; /* Зображення розтягується, щоб покрити весь контейнер */
+  background-position: center; /* Центрування зображення */
+  background-repeat: no-repeat; /* Забороняємо повторення зображення */
 }
