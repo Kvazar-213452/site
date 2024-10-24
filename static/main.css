@@ -1,9 +1,9 @@
 .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 @media (min-width: 768px) {
@@ -75,6 +75,23 @@
   display: block !important;
 }
 
-.nav-item{
-  
+
+
+
+.navbar-nav{
+  position: absolute !important;
+  right: 20px !important;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav{
+    position: relative !important;
+    right: 0px !important;
+    float: left;
+  }
+}
+
+.navbar-toggler{
+  z-index: 1000000000000000000000 !important;
+  position: absolute !important;
 }
